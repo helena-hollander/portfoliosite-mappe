@@ -1,12 +1,11 @@
 <script setup>
-
+import HeroComp from '@/components/HeroComp.vue';
 </script>
 
 <template>
   <main>
     <section id="heropage">
-      <h1 class="text-5xl">h. hollænder</h1>
-
+      <HeroComp/>
     </section>
   </main>
 </template>
